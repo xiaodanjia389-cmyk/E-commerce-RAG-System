@@ -1,0 +1,69 @@
+2026-04-25 09:53:57,675 - Agent_System - INFO - 成功加载提示词: system_prompt.txt
+2026-04-25 09:53:57,675 - Agent_System - INFO - 成功加载提示词: rag_prompt.txt
+2026-04-25 10:29:36,583 - Agent_System - INFO - 正在向量化处理文档: /Users/jiaxiaodan/Agent_Project/data/robot_faq.txt
+2026-04-25 10:35:40,215 - Agent_System - INFO - 正在向量化处理文档: /Users/jiaxiaodan/Agent_Project/data/robot_faq.txt
+2026-04-25 10:43:59,440 - Agent_System - INFO - 正在向量化处理文档: /Users/jiaxiaodan/Agent_Project/data/robot_faq.txt
+2026-04-25 10:45:35,729 - Agent_System - INFO - 正在向量化处理文档: /Users/jiaxiaodan/Agent_Project/data/robot_faq.txt
+2026-04-25 10:45:36,613 - Agent_System - INFO - 向量化存储完成！数据库位于: ./chroma_db
+2026-04-25 11:14:19,328 - Agent_System - INFO - 执行业务工具 - 天气查询: 北京
+2026-04-25 11:14:19,329 - Agent_System - INFO - 执行业务工具 - 获取用户信息
+2026-04-25 11:21:15,516 - Agent_System - INFO - 执行业务工具 - 天气查询: 北京
+2026-04-25 11:21:15,516 - Agent_System - INFO - 执行业务工具 - 获取用户信息
+2026-04-25 11:40:00,121 - Agent_System - INFO - --- [工具启动] 名称: get_weather ---
+2026-04-25 11:40:00,121 - Agent_System - INFO - --- [入参详情] Args: ('北京',), Kwargs: {} ---
+2026-04-25 11:40:00,121 - Agent_System - INFO - 执行业务工具 - 天气查询: 北京
+2026-04-25 11:40:00,121 - Agent_System - INFO - --- [执行成功] 结果: 北京当前天气为晴，气温28℃。 ---
+2026-04-25 11:40:00,121 - Agent_System - INFO - --- [执行耗时] 0.0004s ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [工具启动] 名称: get_user_info ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [入参详情] Args: (), Kwargs: {} ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - 执行业务工具 - 获取用户信息
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [执行成功] 结果: 用户信息：张三
+购买机型：扫地宝 X20 Pro
+剩余保修：156天
+上次清扫：2026-04-23 ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [执行耗时] 0.0001s ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [工具启动] 名称: knowledge_search ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - --- [入参详情] Args: ('亮红灯',), Kwargs: {} ---
+2026-04-25 11:40:00,122 - Agent_System - INFO - 执行业务工具 - 知识库检索: 亮红灯
+2026-04-25 11:40:00,832 - Agent_System - INFO - --- [执行成功] 结果: 扫地机器人亮红灯：请检查边刷是否有异物缠绕。
+如何预约安装：请拨打400-123-456进行人工预约。
+充电座摆放：请确保充电座左右两侧各有0.5米的开阔空间。 ---
+2026-04-25 11:40:00,832 - Agent_System - INFO - --- [执行耗时] 0.71s ---
+2026-04-25 11:55:26,576 - Agent_System - INFO - --- [模型决策启动] ---
+2026-04-25 11:55:26,576 - Agent_System - INFO - --- [上下文消息数] 1 条 ---
+2026-04-25 11:55:26,576 - Agent_System - INFO - --- [最新输入内容] 你好，简单介绍一下扫地机器人的边刷作用。... ---
+2026-04-25 11:55:39,145 - Agent_System - INFO - --- [模型响应完成] ---
+2026-04-25 17:58:18,933 - Agent_System - INFO - --- [提示词模式] 保持『基础客服模式』 ---
+2026-04-25 17:58:18,933 - Agent_System - INFO - --- [模型决策启动] ---
+2026-04-25 17:58:18,933 - Agent_System - INFO - --- [上下文消息数] 2 条 ---
+2026-04-25 17:58:18,934 - Agent_System - INFO - --- [最新输入内容] 你好，你是谁？... ---
+2026-04-25 17:58:25,051 - Agent_System - INFO - --- [模型响应完成] ---
+2026-04-25 17:58:25,051 - Agent_System - INFO - --- [提示词切换] 检测到报告生成需求，切换至『专业报告模式』 ---
+2026-04-25 18:00:43,745 - Agent_System - INFO - --- [提示词模式] 保持『基础客服模式』 ---
+2026-04-25 18:00:43,745 - Agent_System - INFO - --- [模型决策启动] ---
+2026-04-25 18:00:43,745 - Agent_System - INFO - --- [上下文消息数] 2 条 ---
+2026-04-25 18:00:43,745 - Agent_System - INFO - --- [最新输入内容] 你好，你是谁？... ---
+2026-04-25 18:00:48,385 - Agent_System - INFO - --- [模型响应完成] ---
+2026-04-25 18:00:48,385 - Agent_System - INFO - --- [提示词切换] 检测到报告生成需求，切换至『专业报告模式』 ---
+2026-04-25 18:00:48,386 - Agent_System - INFO - --- [模型决策启动] ---
+2026-04-25 18:00:48,386 - Agent_System - INFO - --- [上下文消息数] 2 条 ---
+2026-04-25 18:00:48,386 - Agent_System - INFO - --- [最新输入内容] 请根据我上周的清扫数据，帮我生成一份清扫报告。... ---
+2026-04-25 18:01:49,324 - Agent_System - INFO - --- [模型响应完成] ---
+2026-04-25 18:39:54,278 - Agent_System - INFO - --- [工具启动] 名称: knowledge_search ---
+2026-04-25 18:39:54,279 - Agent_System - INFO - 执行业务工具 - 知识库检索: 扫地机器人扫不干净解决方法
+2026-04-25 18:39:54,898 - Agent_System - INFO - --- [执行成功] 耗时: 0.6205s ---
+2026-04-25 18:40:14,001 - Agent_System - INFO - --- [工具启动] 名称: get_weather ---
+2026-04-25 18:40:14,003 - Agent_System - INFO - 执行业务工具 - 天气查询: 深圳
+2026-04-25 18:40:14,004 - Agent_System - INFO - --- [执行成功] 耗时: 0.0025s ---
+2026-04-25 18:40:14,005 - Agent_System - INFO - --- [工具启动] 名称: knowledge_search ---
+2026-04-25 18:40:14,006 - Agent_System - INFO - 执行业务工具 - 知识库检索: 如何保养扫地机器人
+2026-04-25 18:40:14,191 - Agent_System - INFO - --- [执行成功] 耗时: 0.1853s ---
+2026-04-25 18:40:29,431 - Agent_System - INFO - --- [工具启动] 名称: get_user_info ---
+2026-04-25 18:40:29,433 - Agent_System - INFO - 执行业务工具 - 获取用户信息
+2026-04-25 18:40:29,433 - Agent_System - INFO - --- [执行成功] 耗时: 0.0017s ---
+2026-04-25 18:50:48,677 - Agent_System - INFO - --- [工具启动] 名称: knowledge_search ---
+2026-04-25 18:50:48,679 - Agent_System - INFO - 执行业务工具 - 知识库检索: 机器人保养方法
+2026-04-25 18:50:49,279 - Agent_System - INFO - --- [执行成功] 耗时: 0.6028s ---
+2026-04-25 18:59:39,543 - Agent_System - INFO - --- [工具启动] 名称: get_weather ---
+2026-04-25 18:59:39,545 - Agent_System - INFO - 执行业务工具 - 天气查询: 济南市
+2026-04-25 18:59:39,545 - Agent_System - INFO - --- [执行成功] 耗时: 0.002s ---
