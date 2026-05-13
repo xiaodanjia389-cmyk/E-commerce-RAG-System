@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 环境变量文件（存放API密钥，绝对不能提交到GitHub！）
+.env
+.env.*
+!.env.example  # 保留示例文件，不含真实密钥
+
+# 虚拟环境文件夹
+.venv/
+venv/
+
+# 本地测试数据（如果不想上传商品数据/向量库文件，可添加）
+data/
+*.db
+chroma_db/
+
+# Streamlit本地缓存/配置（已包含secrets.toml，可补充其他）
+.streamlit/config.toml  # 本地配置文件，不提交到仓库
+__pycache__/
